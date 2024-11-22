@@ -1,0 +1,35 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  p {
+    @apply text-light;
+  }
+
+  a {
+    @apply text-light;
+  }
+
+  a:hover {
+    @apply text-medium underline;
+  }
+
+  .lt-button {
+    @apply block border-solid border-2 bg-medium text-light hover:text-light hover:underline hover:bg-lessdark font-bold w-64 my-2;
+  }
+
+  .title {
+    @apply text-xl bg-light text-dark w-full mb-2;
+  }
+
+  .kraoki-title {
+    @apply text-6xl;
+  }
+
+  .text {
+    @apply text-light my-2;
+  }
+}
