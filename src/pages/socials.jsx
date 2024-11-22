@@ -2,7 +2,7 @@ import Button from "../components/button";
 
 const Socials = () => {
   return (
-    <div className="bg-dark my-2 border-solid border-2 border-light p-4">
+    <div className="bg-dark my-2 md:w-screen border-solid border-2 border-light p-4">
       <h1 className="title">Réseaux sociaux</h1>
       <div className="flex flex-col items-center">
         <Button

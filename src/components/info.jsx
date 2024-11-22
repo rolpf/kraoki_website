@@ -1,10 +1,11 @@
 const Info = () => {
   return (
-    <div className="md:absolute md:w-1/4 bg-dark grid justify-items-center border-solid border-2 border-light p-4">
+    <div className="md:w-44 md:h-96 md:mr-4 bg-dark grid justify-items-center border-solid border-2 border-light p-4">
       <p className="title">Info</p>
       <img
-        className="w-10 h-10 rounded"
-        src="https://i.pinimg.com/236x/26/d0/07/26d007bf81ce6d309eed6e69b907432c.jpg"
+        className="w-24 h-24 rounded"
+        src="kraoki-profile-by-trsgatos.jpg"
+        alt="photo de profil"
       ></img>
       <p className="">bienvenue sur le site de ta streameuse twitch préférée</p>
 
