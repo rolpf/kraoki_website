@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -9,7 +8,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App flex flex-col justify-between min-h-screen lg:mx-64 md:mx-24">
+    <div className="text-center flex flex-col justify-between min-h-screen lg:mx-64 md:mx-24">
       <Navbar />
 
       <div className="md:flex md:flex-row-reverse justify-between">
