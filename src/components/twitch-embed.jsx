@@ -11,12 +11,12 @@ const TwitchView = ({ channel = "kraoki", displayName = "Kraoki" }) => {
   }
 
   return (
-    <div className="twitch">
-      <div className="twitch-player">
+    <div className="twitch ">
+      <div className="aspect-video">
         <TwitchPlayer
-          width="940"
-          height="480"
           channel={channel}
+          width="100%"
+          height="100%"
           onOnline={() => setOnline(true)}
           onOffline={() => setOnline(false)}
           onReady={(p) => {
@@ -34,10 +34,7 @@ const TwitchView = ({ channel = "kraoki", displayName = "Kraoki" }) => {
               live sur Twitch
             </>
           ) : (
-            <>
-              Clique ici pour voir des vidéos récentes de{" "}
-              {displayName || channel} sur Twitch
-            </>
+            <>{displayName || channel} n'est pas en stream pour le moment.</>
           )}
         </a>
       </div>
