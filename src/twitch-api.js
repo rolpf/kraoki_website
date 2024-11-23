@@ -1,14 +1,12 @@
 import * as React from "react";
 
-const CLIENT_ID = "n27fslur1zusyzaapsvk1yna0i2br8";
-
 const cache = {};
 const api = async (path, options = {}) => {
   if (!options.cache || !cache[path]) {
     console.log("TWITCH", path);
     cache[path] = await fetch(`https://api.twitch.tv/kraken/${path}`, {
       headers: {
-        "Client-ID": CLIENT_ID,
+        "Client-ID": process.env.REACT_APP_TWITCH_CLIENT_ID,
         Accept: "application/vnd.twitchtv.v5+json",
       },
     });
