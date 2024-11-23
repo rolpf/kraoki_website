@@ -11,13 +11,24 @@ const Info = () => {
 
       <ul className="">
         <li>
-          <a>twitch</a>
+          <a href="https://www.twitch.tv/kraoki" target="_blank">
+            twitch
+          </a>
         </li>
         <li>
-          <a>youtube</a>
+          <a href="https://youtube.com/kraoki" target="_blank">
+            youtube
+          </a>
         </li>
         <li>
-          <a>instagram</a>
+          <a href="https://instagram.com/kraoki" target="_blank">
+            instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://tiktok.com/@kraokir" target="_blank">
+            tiktok
+          </a>
         </li>
       </ul>
     </div>
