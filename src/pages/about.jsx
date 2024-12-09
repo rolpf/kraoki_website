@@ -10,7 +10,7 @@ const About = () => {
       <h1 className="title">Qui suis-je ?</h1>
       <p>
         Salut, moi c'est <strong>Kraoki</strong>, streameuse depuis 2016 sur{" "}
-        <a href="https://twitch.tv/kraoki" target="_blank">
+        <a href="https://twitch.tv/kraoki" target="_blank" rel="noreferrer">
           Twitch.
         </a>
       </p>

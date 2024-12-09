@@ -5,7 +5,7 @@ const Info = () => {
       <img
         className="w-24 h-24 rounded"
         src="kraoki-profile-by-trsgatos.jpg"
-        alt="photo de profil"
+        alt="dessin de kraoki"
       ></img>
       <p>
         bienvenue sur le site de Kraoki, ta streameuse twitch affiliée préférée
@@ -13,22 +13,34 @@ const Info = () => {
 
       <ul className="">
         <li>
-          <a href="https://www.twitch.tv/kraoki" target="_blank">
+          <a
+            href="https://www.twitch.tv/kraoki"
+            target="_blank"
+            rel="noreferrer"
+          >
             twitch
           </a>
         </li>
         <li>
-          <a href="https://youtube.com/kraoki" target="_blank">
+          <a href="https://youtube.com/kraoki" target="_blank" rel="noreferrer">
             youtube
           </a>
         </li>
         <li>
-          <a href="https://instagram.com/kraoki" target="_blank">
+          <a
+            href="https://instagram.com/kraoki"
+            target="_blank"
+            rel="noreferrer"
+          >
             instagram
           </a>
         </li>
         <li>
-          <a href="https://tiktok.com/@kraokir" target="_blank">
+          <a
+            href="https://tiktok.com/@kraokir"
+            target="_blank"
+            rel="noreferrer"
+          >
             tiktok
           </a>
         </li>
