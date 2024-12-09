@@ -4,7 +4,7 @@ sava?
 
 ## barre info
 
-- liste réseaux sociaux
+DONE
 
 ## homepage
 
@@ -16,9 +16,7 @@ DONE
 
 ## page a propos
 
-- on raconte un peu sa life
 - liste de jeux prefs ? jsp apres je peux faire des liste de truc que jm bien pck c cool le partage
-- fournir contenu setup
 
 ## blog
 
