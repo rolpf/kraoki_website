@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const About = () => {
+  useEffect(() => {
+    document.title = "A propos | Kraoki - Streameuse Twitch";
+  });
+
   return (
     <div className="bg-dark my-2 md:w-screen border-solid border-2 border-light p-4 border-solid border-2 border-light p-4">
       <h1 className="title">Qui suis-je ?</h1>
