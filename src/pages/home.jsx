@@ -18,7 +18,7 @@ const Home = () => {
             target="_blank"
           />
           <Button
-            title="Regarde les rediffusions"
+            title="Regarder les rediffusions"
             href="https://www.twitch.tv/kraoki/videos?filter=highlights&sort=time"
             target="_blank"
           />

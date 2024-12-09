@@ -8,12 +8,11 @@ sava?
 
 ## homepage
 
-- format embed twitch
-- sous l'embed boutons => sub, accéder à la chaine
+DONE
 
 ## page réseaux sociaux
 
-- en mode linktree tsais c pratique
+DONE
 
 ## page a propos
 
