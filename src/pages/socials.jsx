@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import Button from "../components/button";
 
 const Socials = () => {
+  useEffect(() => {
+    document.title = "Réseaux Sociaux | Kraoki - Streameuse Twitch";
+  });
   return (
     <div className="bg-dark my-2 md:w-screen border-solid border-2 border-light p-4 flex flex-col items-center">
       <h1 className="title">Réseaux sociaux</h1>
