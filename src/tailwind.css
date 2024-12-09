@@ -5,8 +5,9 @@
 @tailwind utilities;
 
 @layer components {
-  p {
-    @apply text-light;
+  p,
+  li {
+    @apply text-light my-2;
   }
 
   a {
@@ -22,14 +23,10 @@
   }
 
   .title {
-    @apply text-xl bg-light text-dark w-full mb-2;
+    @apply text-xl bg-light text-dark w-full mb-2 text-center;
   }
 
   .kraoki-title {
     @apply text-6xl;
-  }
-
-  .text {
-    @apply text-light my-2;
   }
 }
