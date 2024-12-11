@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kraoki_website/static/css/main.ddc82b11.css",
-    "main.js": "/kraoki_website/static/js/main.ab81ddbf.js",
-    "static/js/453.f6b5c29b.chunk.js": "/kraoki_website/static/js/453.f6b5c29b.chunk.js",
-    "static/media/dither-bg.png": "/kraoki_website/static/media/dither-bg.4ac66700f8d86b82e325.png",
-    "static/media/nurple-static-bright.gif": "/kraoki_website/static/media/nurple-static-bright.aa7cac6cf2e0e6dbbda3.gif",
-    "index.html": "/kraoki_website/index.html",
-    "main.ddc82b11.css.map": "/kraoki_website/static/css/main.ddc82b11.css.map",
-    "main.ab81ddbf.js.map": "/kraoki_website/static/js/main.ab81ddbf.js.map",
-    "453.f6b5c29b.chunk.js.map": "/kraoki_website/static/js/453.f6b5c29b.chunk.js.map"
+    "main.css": "/static/css/main.b9396849.css",
+    "main.js": "/static/js/main.329928b9.js",
+    "static/js/453.f6b5c29b.chunk.js": "/static/js/453.f6b5c29b.chunk.js",
+    "static/media/dither-bg.png": "/static/media/dither-bg.4ac66700f8d86b82e325.png",
+    "static/media/nurple-static-bright.gif": "/static/media/nurple-static-bright.aa7cac6cf2e0e6dbbda3.gif",
+    "index.html": "/index.html",
+    "main.b9396849.css.map": "/static/css/main.b9396849.css.map",
+    "main.329928b9.js.map": "/static/js/main.329928b9.js.map",
+    "453.f6b5c29b.chunk.js.map": "/static/js/453.f6b5c29b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc82b11.css",
-    "static/js/main.ab81ddbf.js"
+    "static/css/main.b9396849.css",
+    "static/js/main.329928b9.js"
   ]
 }
