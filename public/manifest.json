@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kraoki",
+  "name": "Website to promote KRaoki's Twitch Streaming content",
   "icons": [
     {
       "src": "favicon.ico",

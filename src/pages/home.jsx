@@ -17,7 +17,7 @@ const Home = () => {
         />
         <div className="flex md:flex-row flex-col items-center justify-around">
           <Button
-            title="S'abonner pour 5€"
+            title="S'abonner pour 5 €"
             href="https://www.twitch.tv/products/kraoki/ticket/new"
             target="_blank"
           />
