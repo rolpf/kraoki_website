@@ -34,7 +34,7 @@ const Socials = () => {
       />
       <Button
         title="BlueSky"
-        href="https://bsky.app/profile/kraoki.bsky.social"
+        href="https://bsky.app/profile/kraoki.fr"
         target="_blank"
         rel="noreferrer"
       />
