@@ -38,10 +38,10 @@ const About = () => {
       <div className="md:flex justify-center">
         <ul className="mx-4 md:w-1/2 text-left">
           <p className="title">Mon ordinateur</p>
-          <li>Processeur : AMD Ryzen 7 1700X</li>
+          <li>Processeur : AMD Ryzen 7 5800X</li>
           <li>Carte mère : MSI - X370 GAMING PRO CARBON</li>
-          <li>Carte graphique : MSI - Geforce GTX 1070</li>
-          <li>Ventirad : be quiet! - Pure Rock Slim 25.14 CFM CPU Cooler</li>
+          <li>Carte graphique : MSI - Geforce GTX 1080 Ti</li>
+          <li>Ventirad : Thermalright Peerless Assassin 120</li>
           <li>Disque dur interne : Seagate - Barracuda 2 TB</li>
           <li>SSD : Samsung - 860 Evo 500 GB</li>
         </ul>
