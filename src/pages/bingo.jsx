@@ -1,4 +1,3 @@
-import { useState } from "react";
 import BingoCase from "../components/bingoCase.jsx";
 
 function Bingo() {
@@ -43,7 +42,6 @@ function Bingo() {
   ];
   let gridContent = randomize(items);
   gridContent.splice(25, gridContent.length - 25);
-  const [check, setCheck] = useState(false);
 
   function randomize(values) {
     let index = values.length,
@@ -65,10 +63,6 @@ function Bingo() {
     return values;
   }
 
-  function handleClick() {
-    setCheck(!check);
-  }
-
   return (
     <div className="bg-dark my-2 border-solid border-2 border-light p-4 border-solid border-2 border-light p-4">
       <h1 className="title">Bingo</h1>
@@ -77,7 +71,7 @@ function Bingo() {
         className="grid border-2 bg-dark border-light wm-4 grid-cols-5 grid-rows-5"
       >
         {gridContent.map((content) => (
-          <BingoCase text={content} check={check} onClick={handleClick} />
+          <BingoCase text={content} />
         ))}
       </div>
     </div>

@@ -16,7 +16,7 @@ function BingoCase(content) {
         onClick={handleClick}
       >
         <p>{content.text}</p>
-        {console.log(check)}
+        {console.log(content)}
       </div>
     </>
   );
