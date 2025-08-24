@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Socials from "./pages/socials";
-import Info from "./components/info";
-import Footer from "./components/footer";
+import Navbar from "./components/navbar.jsx";
+import Home from "./pages/home.jsx";
+import About from "./pages/about.jsx";
+import Socials from "./pages/socials.jsx";
+import Info from "./components/info.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
         </div>
       </div>
 
-      {/* Footer */}
       <footer className="w-full">
         <Footer />
       </footer>

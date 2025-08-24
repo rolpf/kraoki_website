@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import TwitchView from "../components/twitch-embed";
-import Button from "../components/button";
+import TwitchView from "../components/twitch-embed.jsx";
+import Button from "../components/button.jsx";
 
 const Home = () => {
   useEffect(() => {
