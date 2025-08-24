@@ -44,6 +44,13 @@ const Socials = () => {
         target="_blank"
         rel="noreferrer"
       />
+      <h2 className="title">Me soutenir financièrement</h2>
+      <Button
+        title="Kofi"
+        href="https://ko-fi.com/kraoki/"
+        target="_blank"
+        rel="noreferrer"
+      />
       <h2 className="title">Me soutenir en achetant des jeux</h2>
       <Button
         title="Instant Gaming"
