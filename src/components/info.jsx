@@ -46,6 +46,7 @@ const Info = () => {
           </a>
         </li>
       </ul>
+
       <a
         href="https://arab.org/click-to-help/palestine/"
         target="_blank"
