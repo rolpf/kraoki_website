@@ -46,7 +46,12 @@ const Info = () => {
           </a>
         </li>
       </ul>
-      <a href="https://arab.org/click-to-help/palestine/" target="_blank">
+
+      <a
+        href="https://arab.org/click-to-help/palestine/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src="/stamps/DailyClickHere!.png"
           alt="Daily Click Here Palestine stamp"
