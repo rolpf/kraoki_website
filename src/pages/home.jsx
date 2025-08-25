@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import TwitchView from "../components/twitch-embed.jsx";
 import Button from "../components/button.jsx";
-import Stamps from "../components/stamps.jsx";
 
 const Home = () => {
   useEffect(() => {
