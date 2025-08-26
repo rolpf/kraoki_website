@@ -1,6 +1,6 @@
 const Info = () => {
   return (
-    <div className="md:w-44 md:mr-4 bg-dark grid justify-items-center border-solid border-2 border-light p-4">
+    <div className="md:w-44 md:mr-4 bg-dark grid md:my-2 justify-items-center border-solid border-2 border-light p-4">
       <p className="title">Info</p>
       <img
         className="w-24 h-24 rounded"
@@ -10,6 +10,7 @@ const Info = () => {
       <p>
         bienvenue sur le site de Kraoki, ta streameuse twitch affiliée préférée
       </p>
+      <img src="/blinkies/blinkies.gif" alt="white hearts banner" />
 
       <ul className="">
         <li>
@@ -45,6 +46,17 @@ const Info = () => {
           </a>
         </li>
       </ul>
+
+      <a
+        href="https://arab.org/click-to-help/palestine/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="/stamps/DailyClickHere!.png"
+          alt="Daily Click Here Palestine stamp"
+        />
+      </a>
     </div>
   );
 };
