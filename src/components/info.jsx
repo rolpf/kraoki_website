@@ -12,18 +12,20 @@ const Info = () => {
       </p>
       <img src="/blinkies/blinkies.gif" alt="white hearts banner" />
 
-      <ul className="">
+      <ul className="text-left">
         <li>
           <a
             href="https://www.twitch.tv/kraoki"
             target="_blank"
             rel="noreferrer"
           >
+            <strong>✧ </strong>
             twitch
           </a>
         </li>
         <li>
           <a href="https://youtube.com/kraoki" target="_blank" rel="noreferrer">
+            <strong>✧ </strong>
             youtube
           </a>
         </li>
@@ -33,6 +35,7 @@ const Info = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <strong>✧ </strong>
             instagram
           </a>
         </li>
@@ -42,7 +45,24 @@ const Info = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <strong>✧ </strong>
             tiktok
+          </a>
+        </li>
+        <li>
+          <a href="https://ko-fi.com/kraoki/" target="_blank" rel="noreferrer">
+            <strong>✧ </strong>
+            ko-fi
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://steamcommunity.com/id/kraoki/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>✧ </strong>
+            steam
           </a>
         </li>
       </ul>
