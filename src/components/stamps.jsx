@@ -13,6 +13,7 @@ const Stamps = () => {
     { src: "/stamps/alien_cat.png", alt: "alien cat stamp" },
     { src: "/stamps/epicfail.png", alt: "epic fail stamp" },
     { src: "/stamps/gayminecraft.png", alt: "gay minecraft stamp" },
+    { src: "/stamps/twinpeaks.jpg", alt: "twin peaks credits" },
     {
       src: "/stamps/computeremote.png",
       alt: "computer emote stamp",
