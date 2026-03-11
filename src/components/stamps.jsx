@@ -6,15 +6,25 @@ const Stamps = () => {
       alt: "animal crossing stamp",
     },
     { src: "/stamps/battleblocks.png", alt: "battleblock theater stamp" },
+    { src: "/stamps/badli.png", alt: "baldi's basics stamp" },
     { src: "/stamps/djfuneral.png", alt: "i'll dj at your funeral stamp" },
     { src: "/stamps/eatingchaps.gif", alt: "cat eating stamp" },
     { src: "/stamps/eevee.gif", alt: "pokémon stamp" },
+    { src: "/stamps/alien_cat.png", alt: "alien cat stamp" },
     { src: "/stamps/epicfail.png", alt: "epic fail stamp" },
     { src: "/stamps/gayminecraft.png", alt: "gay minecraft stamp" },
+    { src: "/stamps/twinpeaks.jpg", alt: "twin peaks credits" },
+    {
+      src: "/stamps/computeremote.png",
+      alt: "computer emote stamp",
+    },
     { src: "/stamps/hatsunemiku.png", alt: "hatsune miku stamp" },
     { src: "/stamps/hypnose.gif", alt: "hypnotic stamp" },
+    { src: "/stamps/cat_dance.webp", alt: "silly cat dance stamp" },
     { src: "/stamps/kangel.png", alt: "k angel stamp" },
     { src: "/stamps/lovecoffee.gif", alt: "i love coffee stamp" },
+    { src: "/stamps/L3.png", alt: "death note L stamp" },
+    { src: "/stamps/online_silly.png", alt: "going online to act silly stamp" },
     { src: "/stamps/MARIOFUCKAYOUUUU.png", alt: "super mario stamp" },
     { src: "/stamps/silly.png", alt: "silly stamp" },
     { src: "/stamps/snow.gif", alt: "tv snow stamp" },
@@ -22,6 +32,7 @@ const Stamps = () => {
     { src: "/stamps/tamagotchi.png", alt: "tamagotchi stamp" },
     { src: "/stamps/tv.gif", alt: "tv stamp" },
     { src: "/stamps/windowsxp.png", alt: "long live windows xp stamp" },
+    { src: "/stamps/vorp.png", alt: "vorp alien stamp" },
   ];
   return (
     <div

@@ -46,7 +46,7 @@ const Socials = () => {
       />
       <h2 className="title">Me soutenir financièrement</h2>
       <Button
-        title="Kofi"
+        title="Ko-fi"
         href="https://ko-fi.com/kraoki/"
         target="_blank"
         rel="noreferrer"
